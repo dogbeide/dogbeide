@@ -25,7 +25,22 @@ body {
 }
 
 .header-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: normal;
+}
+
+.ltgt {
+    color: tomato;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 7px;
+}
+
+.subtitle-text {
+    display: inline-block;
+    font-size: 0.8em;
 }
 
 #david-ogbeide {
@@ -38,8 +53,9 @@ body {
 }
 
 #david-ogbeide:hover {
-    transform: scale(1.08);
     box-shadow: 1px 1px 5px rgba(0, 255, 188, 0.7);
+    opacity: 0.8;
+    transform: scale(1.08);
 }
 
 .main {
@@ -72,6 +88,7 @@ a.item {
 
 a.item:hover {
     color: rgba(0, 0, 0, 0.5);
+    opacity: 0.85;
     transform: scale(1.05);
 }
 
