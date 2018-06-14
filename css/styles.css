@@ -39,8 +39,9 @@ body {
 }
 
 .subtitle-text {
+    color: tomato;
     display: inline-block;
-    font-size: 0.8em;
+    font-size: 0.66em;
 }
 
 #david-ogbeide {
