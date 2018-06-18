@@ -1,5 +1,4 @@
-yarn build
-cd build
+yarn build && cd build
 git init
 git remote add origin git@github.com:dogbeide/dogbeide.github.io.git
 git pull
