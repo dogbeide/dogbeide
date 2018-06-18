@@ -13,7 +13,7 @@ export default {
     },
     'Firebase': {
         id: 4,
-        url: 'images/icons/firebase.svg'
+        url: 'images/icons/firebase.png'
     },
     'JavaScript': {
         id: 5,
@@ -29,7 +29,7 @@ export default {
     },
     'Python': {
         id: 8,
-        url: 'images/icons/python.svg'
+        url: 'images/icons/python.png'
     },
     'Django': {
         id: 9,
