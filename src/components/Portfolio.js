@@ -5,7 +5,7 @@ import projects from '../constants/projects'
 
 const Body = () => {
     return (
-        <div className="main">
+        <div className="portfolio">
             <h1 className="title">MY PROJECTS</h1>
             <div className="items">
             {projects.map(project => 

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import Header from '../components/Header';
-import Body from '../components/Body';
+import Portfolio from '../components/Portfolio';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 class App extends Component {
@@ -9,7 +10,8 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Body />
+        <Portfolio />
+        <Contact />
         <Footer />
       </div>
     )

@@ -24,9 +24,9 @@ export default [
         desc: "A static multi-page branding site for a real estate \
                 management business located in London, UK.",
         techs: [
+            'Node',
             'HTML5',
-            'CSS3',
-            'JavaScript'
+            'CSS3'
         ]
     },
     {
