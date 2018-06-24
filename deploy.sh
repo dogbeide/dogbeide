@@ -1,20 +1,17 @@
 #!/bin/bash
 
 if [ ! -d $(pwd)/node_modules ]; then
-    yarn install
+  yarn install
 fi
 
-yarn build && cd build
+if [ ! -d $(pwd)/dogbeide.github.io ]; then
+  git clone git@github.com:dogbeide/dogbeide.github.io.git
+fi
 
-git init
-git remote add origin git@github.com:dogbeide/dogbeide.github.io.git
-git fetch origin
-git checkout master
+yarn build
+cd dogbeide.github.io
+cp -r ../build/* .
 
-echo "# dogbeide.github.io" >> README.md
-
-git add README.md
 git add -A
-git commit -m "first commit"
-
-git push -u origin master
+git commit -m "deploy live build"
+git push
