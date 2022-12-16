@@ -1,5 +1,15 @@
 export default [
     {
+        id: 0,
+        url: "https://www.bringerofjoyhealing.com/",
+        img: 'images/bringerofjoyhealing-1.png',
+        alt: "bringer-of-joy-healing",
+        title: "Bringer of Joy Healing",
+        desc: "A landing page and booking site for an alternative healing practice \
+                that uses sound and energetic therapy to heal trauma.",
+        techs: null
+    },
+    {
         id: 1,
         url: "https://expensify-books.herokuapp.com",
         img: "images/expensify-books.png",

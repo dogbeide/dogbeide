@@ -16,7 +16,7 @@ const Body = () => {
                     alt={project.alt}
                     desc={project.desc}
                     title={project.title}
-                    techs={project.techs}
+                    // techs={project.techs}
                 />
             )}
             </div>
