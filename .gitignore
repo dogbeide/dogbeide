@@ -8,6 +8,7 @@
 
 # production
 /build
+/dist
 /dogbeide.github.io
 
 # misc
