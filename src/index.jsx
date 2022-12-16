@@ -1,7 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// import registerServiceWorker from './registerServiceWorker';
+;
+const root = createRoot(document.getElementById('root'));
+root.render(<App />);
+// registerServiceWorker();
