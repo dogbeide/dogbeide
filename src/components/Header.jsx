@@ -11,6 +11,11 @@ const Header = () => {
                 <span className="subtitle-text">I WRITE STUFF THAT WORKS</span>
                 <span className="ltgt">/&gt;</span>
             </h4>
+            <h4 className="header-desc">
+                <div className="header-desc-item">I am a Canadian raised UK born Web Developer with a basis in engineering, computer science, and media art design.</div>
+                <div className="header-desc-item">I can build a digital platform for your idea, your business, project, organization, personal page, etc.</div>
+                <div className="header-desc-item">My goal is to create digital art that's functional and paints an interactive picture of what you are presenting!~</div>
+            </h4>
         </div>
     )
 }
