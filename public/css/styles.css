@@ -34,13 +34,13 @@ body {
 }
 
 .header-desc {
-    margin-top: 5px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
 .header-desc-item {
     color: tomato;
-    font-size: 0.66em;
+    font-size: 0.7em;
     margin-bottom: 10px;
 }
 
@@ -103,10 +103,16 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .header-title {
-        /* font-size: 1.2rem; */
-    }
+    /* .header-title {
+        font-size: 1.2rem;
+    } */
 
+    .header-desc-item {
+        color: tomato;
+        font-size: 0.66em;
+        margin-bottom: 14px;
+    }
+    
     #david-ogbeide {
         height: 200px;
         width: 200px;
