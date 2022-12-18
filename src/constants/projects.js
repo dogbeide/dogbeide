@@ -61,7 +61,7 @@ export default [
         img: "images/heresaychat.png",
         alt: "heresaychat",
         title: "Heresay Chat",
-        desc: "A responsive live chat web aop where users can talk in \
+        desc: "A responsive live chat web app where users can talk in \
                 private chat rooms and share their current location.",
         techs: [
             'Node',
