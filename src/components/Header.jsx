@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css'
 
 
 const Header = () => {
@@ -11,11 +12,35 @@ const Header = () => {
                 <span className="subtitle-text">I WRITE STUFF THAT WORKS</span>
                 <span className="ltgt">/&gt;</span>
             </h4>
-            <h4 className="header-desc">
-                <div className="header-desc-item">I am a Canadian raised UK born Web Developer with a basis in engineering, computer science, and media art design.</div>
-                <div className="header-desc-item">I can build a digital platform for your idea, your business, project, organization, personal page, etc.</div>
-                <div className="header-desc-item">My goal is to create digital art that's functional and paints an interactive picture of what you are presenting!~</div>
-            </h4>
+            <div className="header-items row">
+                <div className="header-item col-lg-4">
+                    <div className="header-item-title">
+                        WHO I AM
+                    </div>
+                    <div className="header-item-desc">
+                        A Canadian raised UK-born Web Developer with a basis in 
+                        engineering, computer science, and media art design.
+                    </div>
+                </div>
+                <div className="header-item col-lg-4">
+                    <div className="header-item-title">
+                        MY GOAL
+                    </div>
+                    <div className="header-item-desc">
+                        To deliver functional, concise, yet beautiful interactive displays!~
+                        <br/> (on time) 
+                    </div>
+                </div>
+                <div className="header-item col-lg-4">
+                    <div className="header-item-title">
+                        YOUR NEEDS
+                    </div>
+                    <div className="header-item-desc">
+                        A digital platform for your: 
+                        idea, app, business, project, organization, practice, etc.
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
