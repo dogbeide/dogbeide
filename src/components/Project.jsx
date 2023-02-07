@@ -7,6 +7,11 @@ const Project = ({ url, img, alt, title, desc, techs }) => {
     
     return (
         <div className="project">
+            <div className="project__techs">
+                {techs ? techs.map((tech, i) =>
+                    <TechIcon key={i} tech={tech} />
+                ) : null}
+            </div>
             <a
                 href={url}
                 target="_blank"
@@ -21,11 +26,6 @@ const Project = ({ url, img, alt, title, desc, techs }) => {
             <div className="project__info">
                 <div className="project__title">{title}</div>
                 <div className="project__desc">{desc}</div>
-                <div className="project__techs">
-                {techs ? techs.map((tech, i) =>
-                    <TechIcon key={i} tech={tech} />
-                ) : null}
-                </div>
             </div>
         </div>
     )
