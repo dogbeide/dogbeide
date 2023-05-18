@@ -9,6 +9,11 @@
     flex-basis: 50%;
 }
 
+.inactive {
+    pointer-events: None;
+    opacity: 50%;
+}
+
 .project:hover {
     /* border: 2px solid rgba(92, 155, 223, 0.3); */
     box-shadow: 2px 3px 15px rgba(92, 155, 223, 0.7);

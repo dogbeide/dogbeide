@@ -1,5 +1,15 @@
 export default [
     {
+        id: -1,
+        url: "https://naturesdelightmagic.netlify.app/",
+        img: 'images/naturesdelightmagic_home.png',
+        alt: "natures-delight-magic",
+        title: "Nature's Delight Magic",
+        desc: "A budding e-commerce platform for an independent artist, cook, and alternative spiritual guide. \
+                Supports login, logout, account creation, and a fully-functional shopping cart.",
+        techs: null,
+    },
+    {
         id: 0,
         url: "https://www.bringerofjoyhealing.com/",
         img: 'images/bringerofjoyhealing-1.png',
@@ -7,7 +17,8 @@ export default [
         title: "Bringer of Joy Healing",
         desc: "A landing page and booking site for an alternative healing practice \
                 that uses sound and energetic therapy to heal trauma.",
-        techs: null
+        techs: null,
+        inactive: true,
     },
     {
         id: 1,
@@ -23,7 +34,8 @@ export default [
             'React',
             'Redux',
             'Firebase'
-        ]
+        ],
+        inactive: true,
     },
     {
         id: 2,
@@ -37,7 +49,8 @@ export default [
             'Node',
             'HTML5',
             'CSS3'
-        ]
+        ],
+        inactive: true,
     },
     {
         id: 3,
@@ -53,7 +66,8 @@ export default [
         techs: [
             'Python',
             'Django',
-        ]
+        ],
+        inactive: true,
     },
     {
         id: 4,
@@ -66,6 +80,7 @@ export default [
         techs: [
             'Node',
             'JavaScript'
-        ]
+        ],
+        inactive: true,
     },
 ];

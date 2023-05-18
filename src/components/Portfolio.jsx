@@ -17,6 +17,7 @@ const Body = () => {
                     desc={project.desc}
                     title={project.title}
                     techs={project.techs}
+                    inactive={project.inactive}
                 />
             )}
             </div>
