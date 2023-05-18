@@ -7,7 +7,11 @@ export default [
         title: "Nature's Delight Magic",
         desc: "A budding e-commerce platform for an independent artist, cook, and alternative spiritual guide. \
                 Supports login, logout, account creation, and a fully-functional shopping cart.",
-        techs: null,
+        techs: [
+            'React',
+            'Firebase',
+            'JavaScript'
+        ],
     },
     {
         id: 0,
