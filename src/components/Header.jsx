@@ -26,8 +26,8 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header">
-                <h1 className="header-title">Hi, I'm David Ogbeide</h1>
-                <img id="david-ogbeide" src="images/davidogbeide_suit.jpg" alt="david ogbeide" />
+                <h1 className="header-title">Hi, I'm Boyowa David Ogbeide</h1>
+                <img id="david-ogbeide" src="images/davidogbeide_suit.jpg" alt="Boyowa David Ogbeide" />
                 {this.state.isDesktop ? (
                     null
                 ) : (
@@ -43,9 +43,9 @@ class Header extends React.Component {
                             WHO I AM
                         </div>
                         <div className="header-item-desc">
-                            A mostly self-taught Web Developer with a basis in 
-                            engineering, computer science, and media art design.
-                            <br/>UK-born, Canada-raised.
+                            I am a web/software developer with 3 years of professional experience 
+                            and a basis in engineering, 
+                            computer science, and media art design.
                         </div>
                     </div>
                     <div className="header-item col-lg-4">

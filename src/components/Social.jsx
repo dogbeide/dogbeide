@@ -5,20 +5,20 @@ const Social = () => {
     return (
         <div className="social-links">
             <a className="social-icon fa fa-envelope"
-                href="mailto:boyowao@gmail.com"
+                href="mailto:boyowadavid@gmail.com"
                 target="_blank"
             ></a>
             
             <a className="social-icon fa fa-whatsapp"
-                href="https://wa.me/16043791635"
+                href="https://wa.me/14374324885"
                 target="_blank"
             ></a>
             <a className="social-icon fa fa-linkedin-square "
-                href="https://www.linkedin.com/in/david-ogbeide-037528a5/"
+                href="https://www.linkedin.com/in/boyowa-ogbeide-037528a5/"
                 target="_blank"
             ></a>
             <a className="social-icon fa fa-telegram"
-                href="https://t.me/naturesdelightmagic"
+                href="https://t.me/iamboyowa"
                 target="_blank"
             ></a>
         </div>

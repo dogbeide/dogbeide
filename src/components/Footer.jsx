@@ -4,7 +4,7 @@ const Footer = () => {
     const year = new Date().getFullYear();
     return (
         <div className="footer">
-            Copyright © DAVID OGBEIDE <span id="footer-year">{year}</span><br/>
+            Copyright © BOYOWA OGBEIDE <span id="footer-year">{year}</span><br/>
             All Rights Reserved
         </div>
     )

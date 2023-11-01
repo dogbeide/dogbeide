@@ -208,10 +208,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@esbuild/linux-x64@0.16.7":
+"@esbuild/win32-x64@0.16.7":
   version "0.16.7"
-  resolved "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.16.7.tgz"
-  integrity sha512-xi/tbqCqvPIzU+zJVyrpz12xqciTAPMi2fXEWGnapZymoGhuL2GIWIRXg4O2v5BXaYA5TSaiKYE14L0QhUTuQg==
+  resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.16.7.tgz"
+  integrity sha512-QaQ8IH0JLacfGf5cf0HCCPnQuCTd/dAI257vXBgb/cccKGbH/6pVtI1gwhdAQ0Y48QSpTIFrh9etVyNdZY+zzw==
 
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
