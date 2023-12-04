@@ -1,5 +1,20 @@
 export default [
     {
+        id: -2,
+        url: "https://reeftipus-clothing.netlify.app/",
+        img: 'images/reeftipus-clothing_checkoutcart.png',
+        alt: "reeftipus-clothing",
+        title: "Reeftipus Clothing",
+        desc: "A test e-commerce platform for an example clothing brand. \
+                Fully-integrated test Stripe payments. \
+                Supports login, logout, account creation, and a fully-functional shopping cart.",
+        techs: [
+            'React',
+            'Firebase',
+            'JavaScript'
+        ],
+    },
+    {
         id: -1,
         url: "https://naturesdelightmagic.netlify.app/",
         img: 'images/naturesdelightmagic_home.png',
