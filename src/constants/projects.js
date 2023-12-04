@@ -25,7 +25,8 @@ export default [
         techs: [
             'React',
             'Firebase',
-            'JavaScript'
+            'JavaScript',
+            'Redux',
         ],
     },
     {
