@@ -1,5 +1,18 @@
 export default [
     {
+        id: -3,
+        url: "https://maze-path-visualizer.netlify.app/",
+        img: 'images/maze-path-visualizer.png',
+        alt: "maze-path-visualizer",
+        title: "Maze Path Visualizer",
+        desc: "An app that visually displays both breadth-first search & depth-first search \
+                algorithms for finding an exit point to a randomly-generated maze.",
+        techs: [
+            'React',
+            'JavaScript',
+        ],
+    },
+    {
         id: -2,
         url: "https://reeftipus-clothing.netlify.app/",
         img: 'images/reeftipus-clothing_checkoutcart.png',
