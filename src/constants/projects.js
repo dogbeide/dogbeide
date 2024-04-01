@@ -1,6 +1,6 @@
 export default [
     {
-        id: -3,
+        id: -4,
         url: "https://maze-path-visualizer.netlify.app/",
         img: 'images/maze-path-visualizer.png',
         alt: "maze-path-visualizer",
@@ -10,6 +10,20 @@ export default [
         techs: [
             'React',
             'JavaScript',
+        ],
+    },
+    {
+        id: -3,
+        url: "https://www.iamboyowa.art/",
+        img: 'images/iamboyowa-art-site.png',
+        alt: "iamboyowa-art-site",
+        title: "www.iamboyowa.art",
+        desc: "A raw-vanilla coded professional site for an independent artist, poet, musician, and \
+                healing practitioner to share his gifts, his new book, and offer his services.",
+        techs: [
+            'JavaScript',
+            'CSS3',
+            'HTML5',
         ],
     },
     {
