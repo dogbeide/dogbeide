@@ -35,4 +35,8 @@ export default {
         id: 9,
         url: 'images/icons/django.svg'
     },
+    'NextJS': {
+        id: 10,
+        url: 'images/icons/nextjs-13.svg'
+    },
 }
