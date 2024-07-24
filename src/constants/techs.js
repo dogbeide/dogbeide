@@ -39,4 +39,8 @@ export default {
         id: 10,
         url: 'images/icons/nextjs-13.svg'
     },
+    'TypeScript': {
+        id: 11,
+        url: 'images/icons/typescript.svg'
+    }
 }

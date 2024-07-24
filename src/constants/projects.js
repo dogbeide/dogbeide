@@ -1,11 +1,29 @@
 export default [
     {
+        id: -5,
+        url: "https://www.pandoras-awakening.vercel.app/",
+        img: 'images/pandoras-awakening.png',
+        alt: "pandoras-awakening-combined-site",
+        title: "www.pandorasawakening.com",
+        desc: "A professional site that combines 3 original sites. For a holistic sex therapist who specializes \
+                in helping others to reclaim their healthy sexuality, creativity, and to form long-lasting, fulfilling relationships. \
+                Built with the most up-to-date and versatile, \
+                scalable frameworks for both SEO and functionality.\
+                ",
+        techs: [
+            'NextJS',
+            'TypeScript',
+            'CSS3',
+            'HTML5',
+        ],
+    },
+    {
         id: -4,
         url: "https://www.iamboyowa.art/",
         img: 'images/iamboyowa-art-site.png',
         alt: "iamboyowa-art-site",
         title: "www.iamboyowa.art",
-        desc: "A rprofessional site, built with the most up-to-date and versatile, \
+        desc: "A professional site, built with the most up-to-date and versatile, \
                 scalable frameworks for both SEO and functionality. For an independent artist, poet, musician, and \
                 healing practitioner to share his gifts, his new book, and offer his services. \
                 ",
